@@ -12,5 +12,4 @@ resource "azurerm_analysis_services_server" "default" {
     range_start = var.range_start
     range_end   = var.range_end
   } 
-  
-}
+ }
