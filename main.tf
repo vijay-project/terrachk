@@ -11,5 +11,6 @@ resource "azurerm_analysis_services_server" "default" {
     crl_name    = var.crl_name
     range_start = var.range_start
     range_end   = var.range_end
-  }
+  } 
+  
 }
