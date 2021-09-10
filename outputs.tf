@@ -4,5 +4,5 @@ output "id" {
 }
 output "server_full_name" {
   values      = azurerm_analysis_services_server.default.server_full_name
-  description = "The full name of the Analysis Services Server."
+  description = "The full name of the Analysis Services Server define here."
 }
